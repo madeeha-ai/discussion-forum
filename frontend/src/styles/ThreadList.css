@@ -1,0 +1,114 @@
+/* General Container */
+.thread-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background: #fff;
+}
+
+/* Title */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  flex: 2;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dropdown {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+}
+
+/* Thread List */
+.thread-list {
+  list-style: none;
+  padding: 0;
+}
+
+.thread-item {
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.thread-item:hover {
+  transform: translateY(-2px);
+}
+
+.sort-category-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.sort-container,
+.filter-category-container {
+  margin-top: 10px;
+}
+
+/* Thread Titles */
+.thread-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.thread-title:hover {
+  text-decoration: underline;
+}
+
+/* Thread Metadata */
+.thread-content {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.thread-meta {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Create Thread Button */
+.create-thread {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.create-thread:hover {
+  background: #0056b3;
+}

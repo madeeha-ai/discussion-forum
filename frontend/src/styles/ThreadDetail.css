@@ -1,0 +1,99 @@
+/* Container */
+.thread-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 5vh auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Thread Box */
+.thread-box {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.thread-actions,
+.response-content {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-btn {
+  background: #28a745;
+  color: white;
+}
+.edit-btn {
+  background: #007bff;
+  color: white;
+}
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
+.reply-btn {
+  background: #007bff;
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Responses */
+.response-list {
+  list-style: none;
+  padding: 0;
+}
+
+.response-item {
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Inputs */
+.input-field,
+.textarea-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.textarea-field {
+  height: 100px;
+  resize: vertical;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .thread-container {
+    width: 85%;
+    padding: 1.5rem;
+  }
+
+  button {
+    font-size: 0.85rem;
+    padding: 7px 10px;
+  }
+}

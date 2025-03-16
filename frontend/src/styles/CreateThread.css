@@ -1,0 +1,126 @@
+/* General Styling */
+.create-thread-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 5vh auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Title */
+.title {
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: 1.2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Input & Textarea Fields */
+.input-field,
+.textarea-field,
+.select-field {
+  width: 95%;
+  max-width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f8f8f8;
+  transition: border 0.3s;
+  display: block;
+}
+
+.input-field:focus,
+.textarea-field:focus,
+.select-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Textarea */
+.textarea-field {
+  height: 150px;
+  resize: vertical;
+}
+
+/* Dropdown Select */
+.select-field {
+  cursor: pointer;
+}
+
+/* Create Button */
+.create-button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.create-button:hover {
+  background: #0056b3;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .create-thread-container {
+    width: 95%;
+    padding: 1.5rem;
+  }
+
+  .input-field,
+  .textarea-field,
+  .select-field {
+    font-size: 0.95rem;
+    padding: 0.9rem;
+  }
+
+  .create-button {
+    font-size: 1rem;
+    padding: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .create-thread-container {
+    width: 98%;
+    padding: 1rem;
+    box-shadow: none;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .input-field,
+  .textarea-field,
+  .select-field {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+
+  .textarea-field {
+    height: 120px;
+  }
+
+  .create-button {
+    font-size: 1rem;
+  }
+}

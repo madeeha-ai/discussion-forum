@@ -1,0 +1,21 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.fontFamily": "fira code",
+  "editor.fontLigatures": "true",
+  "prettier.tabWidth": 1,
+  "prettier.prettierPath": ".prettierrc",
+  "prettier.requireConfig": true,
+  "editor.fontWeight": "normal",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
+}
